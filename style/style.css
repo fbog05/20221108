@@ -4,6 +4,60 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    list-style-type: none;
     font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+body{
+    background-color: #bac5dd;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1312px;
+}
+
+nav{
+    background-color: #5473b4;
+    max-width: 100%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    margin: 30px 120px 30px 60px;
+}
+
+nav ul li a:first-child{
+    margin-left: 60px;
+}
+
+nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header{
+    background: url('../img/picture1.jpg') no-repeat;
+    height: 580px;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.rigth{
+    float: right;
+}
+
+nav ul li a:hover{
+    color: black;
 }
